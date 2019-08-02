@@ -1,6 +1,7 @@
 const mongoose =require('mongoose');
 const schema=mongoose.Schema;
 
+// this is the schema 
 const dishSchema=new schema({
     name:{
         type: String,
